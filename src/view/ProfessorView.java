@@ -9,12 +9,12 @@ import java.util.Scanner;
 public class ProfessorView {
     private final Scanner sc = new Scanner(System.in);
 
-    public int mostratMenuPrincipal(){
+    public int mostrarMenuPrincipal(){
         int opcio;
         System.out.println("--- MENÚ PRINCIPAL ---");
         System.out.println("1. Gestionar professors");
         System.out.println("0. Sortir");
-        System.out.print("Tria una ppció: ");
+        System.out.print("Tria una opció: ");
         opcio = Integer.parseInt(sc.nextLine());
         return opcio;
     }
@@ -59,7 +59,7 @@ public class ProfessorView {
     public void mostrarProfessors(List<Professor> professors){
         System.out.println("---Lista de professors---");
         for (Professor p : professors){
-            System.out.println(p.getId() + " - " + p.getNom() + " - " + p.getCognom());
+            System.out.println(p.getId() + " - " + p.getCognoms() + ", " + p.getNom());
         }
     }
 
