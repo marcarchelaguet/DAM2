@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="687f91ca-4d6c-4250-91fa-b193d66aa858" name="Changes" comment="Canvis">
-      <change afterPath="$PROJECT_DIR$/src/ConnexioBBDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestConnexio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Professor.java" afterDir="false" />
+    <list default="true" id="687f91ca-4d6c-4250-91fa-b193d66aa858" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD/crud.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BD/crud.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/GestorConnexioBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/GestorConnexioBD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +33,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "marcarchelaguet"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;marcarchelaguet&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/marcarchelaguet/DAM.git",
-    "accountId": "24d02ea1-c36d-42fc-952b-1ea580ffc0ce"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/marcarchelaguet/DAM.git&quot;,
+    &quot;accountId&quot;: &quot;24d02ea1-c36d-42fc-952b-1ea580ffc0ce&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -50,31 +54,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TestConnexio.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Marc/mysql-connector-j-9.4.0/mysql-connector-j-9.4.0.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Marc/IdeaProjects/DAM2/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestConnexio.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.crud.sql.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marc/mysql-connector-j-9.4.0/mysql-connector-j-9.4.0.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Marc/IdeaProjects/DAM2/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;2141cdba-6823-42c3-ba50-caa1d87043a8&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -84,6 +97,7 @@
     <configuration name="crud.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/BD/crud.sql" />
       <script-mode>FILE</script-mode>
+      <data-source id="2141cdba-6823-42c3-ba50-caa1d87043a8" />
       <method v="2" />
     </configuration>
   </component>
@@ -104,7 +118,10 @@
       <option name="presentableId" value="Default" />
       <updated>1759162160769</updated>
       <workItem from="1759162161800" duration="102000" />
-      <workItem from="1759162969833" duration="3434000" />
+      <workItem from="1759162969833" duration="5617000" />
+      <workItem from="1759239490749" duration="3551000" />
+      <workItem from="1759413265027" duration="73000" />
+      <workItem from="1759498815645" duration="1642000" />
     </task>
     <task id="LOCAL-00001" summary="Creació de fitxer crud.sql">
       <option name="closed" value="true" />
@@ -130,7 +147,47 @@
       <option name="project" value="LOCAL" />
       <updated>1759165332040</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Afegir carpetes i classes">
+      <option name="closed" value="true" />
+      <created>1759167689972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759167689972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Classe view">
+      <option name="closed" value="true" />
+      <created>1759241276983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759241276983</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update classe GestorConnexioBD">
+      <option name="closed" value="true" />
+      <created>1759242363179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759242363179</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update classe Professor DAO i ProfessorDAOImpl">
+      <option name="closed" value="true" />
+      <created>1759242435456</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759242435456</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update">
+      <option name="closed" value="true" />
+      <created>1759242972233</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759242972233</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +197,11 @@
     <MESSAGE value="Creació de fitxer crud.sql" />
     <MESSAGE value="Instruccions sql per crear la base de dades" />
     <MESSAGE value="Canvis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Canvis" />
+    <MESSAGE value="Afegir carpetes i classes" />
+    <MESSAGE value="Classe view" />
+    <MESSAGE value="Update classe GestorConnexioBD" />
+    <MESSAGE value="Update classe Professor DAO i ProfessorDAOImpl" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
